@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from 'react-ga4';
 
-ReactGA.initialize('G-63NNBVRH72'); // Masukkan kode pelacakan Anda
+ReactGA.initialize('G-63NNBVRH72');
 
 ReactGA.send('pageview'); 
 
