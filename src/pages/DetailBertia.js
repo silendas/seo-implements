@@ -50,7 +50,7 @@ function DetailBerita() {
 
   return (
     <section className="py-24 bg-white">
-      <div className="container mx-auto max-w-3xl">
+      <div className="container mx-auto max-w-3xl p-2">
         <Breadcrumbs />
         <img
           src={newsItem.image}
