@@ -33,6 +33,7 @@ function App() {
                 src={image}
                 className="w-full h-full object-cover"
                 alt={`Slide ${index}`}
+                loading="lazy"
               />
             </div>
           ))}
@@ -66,6 +67,7 @@ function App() {
           <img
             src="/assets/about.jpg"
             alt="About Us"
+            loading="lazy"
             className="rounded-xl shadow-lg w-full lg:w-1/2"
           />
           <div className="lg:w-1/2">

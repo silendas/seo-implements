@@ -24,6 +24,7 @@ function Galery() {
                 src={image}
                 alt={`Galeri ${index + 1}`}
                 className="w-full h-auto object-cover"
+                loading="lazy"
               />
             </div>
           ))}

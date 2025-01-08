@@ -55,6 +55,7 @@ function DetailBerita() {
         <img
           src={newsItem.image}
           alt={newsItem.title}
+          loading="lazy"
           className="w-full h-auto object-cover rounded-lg mb-6"
         />
         <h2 className="text-4xl font-extrabold text-gray-800 mb-4">

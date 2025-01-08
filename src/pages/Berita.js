@@ -50,6 +50,7 @@ function Berita() {
                 src={item.image}
                 alt={item.title}
                 className="w-full md:w-1/3 h-auto object-cover"
+                loading="lazy"
               />
               <div className="p-6 text-left">
                 <h3 className="text-2xl font-bold text-gray-800 mb-3">
